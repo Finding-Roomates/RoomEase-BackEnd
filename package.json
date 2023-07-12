@@ -11,6 +11,7 @@
   "author": "RoomEase Team",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "expressjs": "^1.0.1",
     "mongodb": "^5.7.0",

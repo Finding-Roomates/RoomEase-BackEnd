@@ -55,3 +55,12 @@ mongoose.connect('mongodb+srv://mtnq9:0rYBB2RkOKf2cXFH@roomeasecluster.e3k7dme.m
     .catch(err => {
       console.log(err);
     });
+
+    // Update user's first name
+    User.updateOne(
+      { firstName: 'Sam' },
+      { $set: {firstName: 'Samantha'} }
+    )
+    .catch(err => {
+      console.log(err);
+    });
